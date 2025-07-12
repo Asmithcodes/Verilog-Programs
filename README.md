@@ -6,13 +6,13 @@ This file helps you track Markdown symbols and see how they look when rendered â
 
 ## 1. Headings
 
-# Symbol:
+`# Symbol:
 # H1
 ## H2
 ### H3
 #### H4
 ##### H5
-###### H6
+###### H6`
 
 # Output:
 # H1
@@ -27,11 +27,11 @@ This file helps you track Markdown symbols and see how they look when rendered â
 ## 2. Text Formatting
 
 # Symbol:
-**bold**  
+`**bold**  
 *italic*  
 ~~strikethrough~~  
 __also bold__  
-_also italic_
+_also italic_`
 
 # Output:
 **bold**  
@@ -45,9 +45,9 @@ _also italic_
 ## 3. Lists
 
 # Symbol (Unordered):
-- Item A  
+`- Item A  
 * Item B  
-+ Item C
++ Item C`
 
 # Output:
 - Item A  
@@ -55,9 +55,9 @@ _also italic_
 + Item C
 
 # Symbol (Ordered):
-1. First  
+`1. First  
 2. Second  
-3. Third
+3. Third`
 
 # Output:
 1. First  
@@ -78,10 +78,10 @@ _also italic_
 
 ---
 
-## 5. Inline and Block Code
+`## 5. Inline and Block Code
 
 # Symbol (Inline):  
-Use `git status` to check changes.
+Use `git status` to check changes.`
 
 # Output:  
 Use `git status` to check changes.
