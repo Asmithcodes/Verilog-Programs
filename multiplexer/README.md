@@ -34,3 +34,9 @@ This version uses basic logic gates (`and`, `or`, `not`) to build the MUX using 
 ![Structural Model](Structural.png)
 
 ---
+
+## Timing diagram of 8-to-1 Multiplexer
+
+This showcases the functionality of the multiplexer according to the inputs.
+
+![Timing diagram](Timing_diagram.png)
