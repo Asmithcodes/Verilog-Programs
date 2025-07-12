@@ -68,9 +68,9 @@ _also italic_
 
 ## 4. Links and Images
 
-# Symbol:
-[GitHub](https://github.com)  
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+`# Symbol:
+[GitHub](https://github.com)
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)`
 
 # Output:  
 [GitHub](https://github.com)  
