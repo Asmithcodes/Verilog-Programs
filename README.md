@@ -24,12 +24,13 @@ Each project in this repository includes:
 
 Each subfolder represents a self-contained Verilog project:
 
-Main folder
-    `program.v`
-    `testbench.v`
-    `circuit_diagram.png`
-    `timing_diagram.png`
-    `README.png`
+- `Main folder`
+    + program.v
+    + testbench.v
+    + circuit_diagram.png
+    + timing_diagram.png
+    + README.png`
+
 ---
 
 ## 📂 What’s Included in Each Project
