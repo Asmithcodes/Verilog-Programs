@@ -35,10 +35,6 @@ This version uses basic logic gates (`and`, `not`) to build the DEMUX using gate
 
 ---
 
-## 📁 File Structure
-
----
-
 ## ⏱️ Timing Diagram
 
 The timing diagram below illustrates how `dataIn` is routed to the appropriate `dataOut` line depending on the `selectLine` value.
