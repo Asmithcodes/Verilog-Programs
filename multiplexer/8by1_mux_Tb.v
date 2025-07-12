@@ -8,7 +8,7 @@ module 8by1_mux_Tb;
     initial begin
         for(i = 0; i < 8; i = i + 1) begin
             selectLine = i;
-            dataIn = 1 >> i;
+            dataIn = 1 << i;
             #20;
         end
         $finish;
