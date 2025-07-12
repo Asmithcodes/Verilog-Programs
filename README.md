@@ -24,8 +24,12 @@ Each project in this repository includes:
 
 Each subfolder represents a self-contained Verilog project:
 
-<pre lang="md"> ``` Verilog-Programs/ ├── 1x8_Demux/ │ ├── 1x8_demux.v │ ├── 1x8_demux_Tb.v │ └── images/ │ ├── schematic.png │ └── timing_diagram.png ├── 8x1_Mux/ │ ├── 8x1_mux.v │ ├── 8x1_mux_Tb.v │ └── images/ │ ├── schematic.png │ └── timing_diagram.png └── ... ``` </pre>
-
+Main folder
+    `program.v`
+    `testbench.v`
+    `circuit_diagram.png`
+    `timing_diagram.png`
+    `README.png`
 ---
 
 ## 📂 What’s Included in Each Project
