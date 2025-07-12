@@ -6,7 +6,6 @@ module 8by1_mux_Tb;
 
     8by1_mux uut(dataIn, selectLine, dataOut);
     // 8by1_mux_gateLevel uut(dataIn, selectLine, dataOut);
-    // 8by1_mux_cont uut(dataIn, selectLine, dataOut);
     
     initial begin
         for(i = 0; i < 8; i = i + 1) begin
