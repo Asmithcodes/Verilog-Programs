@@ -79,3 +79,5 @@ If you're a fellow learner or enthusiast and want to:
 Feel free to open an issue or start a discussion!
 
 ---
+
+📄 Licensed under the [MIT License](LICENSE)
