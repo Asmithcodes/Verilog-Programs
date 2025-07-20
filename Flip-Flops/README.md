@@ -8,10 +8,10 @@ This directory contains the Verilog implementations and circuit diagrams for the
 
 The SR flip-flop is one of the simplest types of flip-flops. It has two inputs, S (Set) and R (Reset), which determine the next state of the output, Q.
 
-- **Set (S=1, R=0):** Forces the output Q to 1.  
-- **Reset (S=0, R=1):** Forces the output Q to 0.  
-- **Hold (S=0, R=0):** The output Q retains its current value.  
-- **Invalid (S=1, R=1):** This input combination is avoided as it leads to an unpredictable state where both Q and Q̅ could be the same value.
+- **Set (S=1, R=0):** Forces the output `Q to 1`.  
+- **Reset (S=0, R=1):** Forces the output `Q to 0`.  
+- **Hold (S=0, R=0):** The output Q retains its `current value`.  
+- **Invalid (S=1, R=1):** This input combination is avoided as it leads to an `unpredictable state` where both Q and Q̅ could be the same value.
 
 ### Characteristic Table
 
@@ -33,7 +33,7 @@ The SR flip-flop is one of the simplest types of flip-flops. It has two inputs, 
 
 ## 2. D (Data/Delay) Flip-Flop
 
-The D flip-flop is designed to solve the invalid state problem of the SR flip-flop. It has a single data input, D. The output Q simply takes on the value of the D input at the active edge of the clock. It effectively "delays" the input by one clock cycle.
+The D flip-flop is designed to solve the invalid state problem of the SR flip-flop. It has a single data input, D. The output Q simply takes on the value of the D input at the active edge of the clock. It effectively `delays` the input by one clock cycle.
 
 ### Characteristic Table
 
@@ -52,12 +52,12 @@ The D flip-flop is designed to solve the invalid state problem of the SR flip-fl
 
 ## 3. JK Flip-Flop
 
-The JK flip-flop is an improvement on the SR flip-flop that eliminates the invalid state. It has two inputs, J (Set) and K (Reset). When both J and K are high, the output toggles.
+The JK flip-flop is an improvement on the SR flip-flop that `eliminates the invalid state`. It has two inputs, J (Set) and K (Reset). When both J and K are high, the output toggles.
 
-- **Hold (J=0, K=0):** Q retains current value  
-- **Reset (J=0, K=1):** Q becomes 0  
-- **Set (J=1, K=0):** Q becomes 1  
-- **Toggle (J=1, K=1):** Q inverts its current state  
+- **Hold (J=0, K=0):** Q `retains` current value  
+- **Reset (J=0, K=1):** Q becomes `0`  
+- **Set (J=1, K=0):** Q becomes `1`  
+- **Toggle (J=1, K=1):** Q `inverts` its current state  
 
 ### Characteristic Table
 
@@ -80,8 +80,8 @@ The JK flip-flop is an improvement on the SR flip-flop that eliminates the inval
 
 The T flip-flop is a single-input version of the JK flip-flop, created by tying the J and K inputs together. It is primarily used for toggling an output.
 
-- **Hold (T=0):** Q retains its current value  
-- **Toggle (T=1):** Q inverts its current state  
+- **Hold (T=0):** Q `retains` its current value  
+- **Toggle (T=1):** Q `inverts` its current state  
 
 This is very useful for creating counters and frequency dividers.
 
