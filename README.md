@@ -29,7 +29,7 @@ Each subfolder represents a self-contained Verilog project:
     + testbench.v
     + circuit_diagram.png
     + timing_diagram.png
-    + README.png`
+    + README.png
 
 ---
 
