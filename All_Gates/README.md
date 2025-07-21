@@ -27,14 +27,14 @@ This module takes two inputs `a` and `b` and generates outputs for each logic ga
 |--------|--------|---------------------------------|
 | `a`    | Input  | First binary input              |
 | `b`    | Input  | Second binary input             |
-| `yNota`| Output | Output of NOT gate on `a`       |
-| `yBufb`| Output | Output of Buffer gate on `b`    |
-| `yAnd` | Output | Output of AND gate              |
-| `yOr`  | Output | Output of OR gate               |
-| `yNand`| Output | Output of NAND gate             |
-| `yNor` | Output | Output of NOR gate              |
-| `yXor` | Output | Output of XOR gate              |
-| `yXnor`| Output | Output of XNOR gate             |
+| `yNota`| Output | Output of `NOT` gate on `a`       |
+| `yBufb`| Output | Output of `Buffer` gate on `b`    |
+| `yAnd` | Output | Output of `AND` gate              |
+| `yOr`  | Output | Output of `OR` gate               |
+| `yNand`| Output | Output of `NAND` gate             |
+| `yNor` | Output | Output of `NOR` gate              |
+| `yXor` | Output | Output of `XOR` gate              |
+| `yXnor`| Output | Output of `XNOR` gate             |
 
 ---
 
