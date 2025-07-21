@@ -11,4 +11,5 @@ module All_Logic_Gates(
     nor(yNor, a, b);
     xor(yXor, a, b);
     xnor(yXnor, a, b);
+    
 endmodule
