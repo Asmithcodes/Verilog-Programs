@@ -1,43 +1,40 @@
 # 1-bit Full Adder
 
-This project implements a **1-bit full adder** in Verilog using both:  
-- Behavioral Modeling  
-- Structural (Gate-Level) Modeling  
+This project implements a **1-bit full adder** in Verilog, showcasing both behavioral and structural modeling techniques.
+
+## Project Description
+
+A full adder is a combinational circuit that adds three 1-bit binary numbers (two inputs and a carry-in) and produces a sum and a carry-out.
+
+### Features
+- **Inputs**: `a`, `b`, `cin` (1-bit binary numbers).
+- **Outputs**:
+  - `sum`: The sum bit of the addition.
+  - `cout`: The carry-out bit.
+- Includes both behavioral and gate-level implementations.
+
+## Files Included
+
+- `Full_adder_Beh.v`: Behavioral model of the full adder.
+- `Full_adder_Struc.v`: Structural model of the full adder.
+- `Tb.v`: Testbench for simulation.
+- `Images/`: Contains circuit and timing diagrams.
+
+## How to Simulate
+
+1. Open Vivado and create a new project.
+2. Add the Verilog files (`Full_adder_Beh.v`, `Full_adder_Struc.v`, `Tb.v`).
+3. Set `Tb.v` as the top module.
+4. Run the simulation to verify the full adder's functionality.
+
+## Circuit Diagram
+
+![Full Adder Circuit](Images/Full_Adder_Circuit.png)
+
+## Timing Diagram
+
+![Timing Diagram](Images/Timing_diagram.png)
 
 ---
 
-## 🧠 Project Description
-
-A **full adder** is a combinational circuit that adds three 1-bit binary numbers — two inputs and a carry-in — and produces a **sum** and a **carry-out**.
-
-In this case:
-- **Inputs** → `a`, `b`, `cin`  
-- **Outputs** →  
-  - `sum` → The sum bit of the addition  
-  - `cout` → The carry-out bit  
-
----
-
-## 📦 Models Implemented
-
-### 🔹 1. Behavioral Model
-
-This version uses high-level arithmetic logic (`a + b + cin`) to generate the output.
-
-![Behavioral Model](Behavioral.png)
-
----
-
-### 🔹 2. Structural Model (Gate-Level)
-
-This version uses basic logic gates (`xor`, `and`, `or`) to construct the full adder circuit.
-
-![Structural Model](Structural.png)
-
----
-
-## 📊 Timing diagram of 1-bit Full Adder
-
-This diagram showcases the output behavior for all combinations of `a`, `b`, and `cin`.
-
-![Timing Diagram](Timing_diagram.png)
+Understand the design and functionality of full adders!
